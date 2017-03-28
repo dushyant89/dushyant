@@ -1,3 +1,30 @@
 h1:first-child a:hover {
 	text-decoration: none;
 }
+
+div#socialSideBar {
+	position: fixed;
+	left: 0px;
+	top: 45%;
+}
+
+div#socialSideBar a img {
+	width: 32px;
+	height: 32px;
+	transition: width 0.2s ease, height 0.2s ease;
+	-webkit-transition: width 0.2s ease, height 0.2s ease;
+}
+
+div#socialSideBar a:hover img {
+	width: 64px;
+	height: 64px;
+}
+
+div#socialSideBar ul {
+	padding-left: 10px
+}
+
+div#socialSideBar li {
+	list-style: none;
+	padding-top: 10px;
+}
